@@ -20,8 +20,13 @@ export default {
         border: 'var(--border)',
         ring: 'var(--ring)',
         ringOffset: 'var(--ring-offset)',
-
         secondaryBlack: '#212121',
+        
+        brutalistBlue: 'var(--brutalistBlue)',
+        brutalistLightBlue: 'var(--brutalistLightBlue)',
+        brutalistPurple: 'var(--brutalistPurple)',
+        brutalistLightPurple: 'var(--brutalistLightPurple)',
+
       },
       borderRadius: {
         base: '10px',
