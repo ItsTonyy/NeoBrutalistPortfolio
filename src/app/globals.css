@@ -30,7 +30,9 @@
   --brutalistBlue: #4d7fe3;
   --brutalistLightBlue: #DFE5F2;
   --brutalistPurple: #A388EE;
-  --brutalistLightPurple: #E3DFF2
+  --brutalistLightPurple: #E3DFF2;
+  --brutalistYellow:#FFDC58;
+  --brutalistLightYellow:#FEF2E8;
 }
 
 .dark {

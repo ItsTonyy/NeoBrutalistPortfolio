@@ -26,6 +26,8 @@ export default {
         brutalistLightBlue: 'var(--brutalistLightBlue)',
         brutalistPurple: 'var(--brutalistPurple)',
         brutalistLightPurple: 'var(--brutalistLightPurple)',
+        brutalistYellow: 'var(--brutalistYellow)',
+        brutalistLightYellow: 'var(--brutalistLightYellow)'
 
       },
       borderRadius: {
