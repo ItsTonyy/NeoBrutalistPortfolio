@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ptbr">
+    <html lang="ptbr" className="scroll-smooth">
       <body
         className={`${ArchivoFont.variable} ${Archivo_BlackFont.variable} font-archivo antialiased`}
       >

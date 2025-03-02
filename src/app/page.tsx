@@ -17,18 +17,20 @@ export default function Home() {
         </div>
 
         <div className='flex flex-row gap-10'>
-          <h3
+          <a
+            href='#aboutMe'
             className='text-lg transform transition-transform duration-100 hover:font-medium hover:underline
            hover:cursor-pointer hover:scale-105'
           >
             About Me
-          </h3>
-          <h3
+          </a>
+          <a
+            href='#projects'
             className='text-lg transform transition-transform duration-100 hover:font-medium hover:underline
            hover:cursor-pointer hover:scale-105'
           >
             Projects
-          </h3>
+          </a>
           <a
             href='https://github.com/ItsTonyy'
             target='_blank'
@@ -46,7 +48,7 @@ export default function Home() {
       <div className='w-full border-2 border-black' />
 
       {/*First Hero*/}
-      <main className='flex justify-center items-center bg-brutalistBlue w-full h-dvh px-2'>
+      <main id='main' className='flex justify-center items-center bg-brutalistBlue w-full h-dvh px-2'>
         <div className='flex flew-row w-full h-[90%] mx-8'>
           <div className='h-full w-1/2 flex items-center justify-center flex-col'>
             <div className='h-[50%] w-full flex flex-col justify-center pl-12'>
@@ -71,7 +73,7 @@ export default function Home() {
 
 
       {/*Second Hero (About Me)*/}
-      <section className='flex justify-center items-center bg-brutalistPurple w-full h-dvh px-2'>
+      <section id='aboutMe' className='flex justify-center items-center bg-brutalistPurple w-full h-dvh px-2'>
         <div className='w-full h-[90%] mx-8 bg-purple-500/30'>
           <h1 className='text-5xl font-bold mb-2'>About Me</h1>
         </div>
@@ -80,7 +82,7 @@ export default function Home() {
       <div className='w-full border-[3px] border-black' />
 
       {/*Second Hero (Projects)*/}
-      <section className='flex justify-center items-center bg-brutalistYellow w-full h-dvh px-2'>
+      <section id='projects' className='flex justify-center items-center bg-brutalistYellow w-full h-dvh px-2'>
         <div className='w-full h-[90%] mx-8 bg-yellow-500/30'>
           <h1 className='text-5xl font-bold mb-2'>Projects</h1>
         </div>
