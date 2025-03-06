@@ -50,6 +50,9 @@ export default {
         base: '400',
         heading: '900',
       },
+      backgroundImage: {
+        'pokedexThumbnail': "url(/PortfolioImages/Pokedex/thumbnail.jpeg)",
+      }
     },
   },
 } satisfies Config;
